@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+header img {
+    height: 70px;
+    margin: 30px;
+}
+
+header .links a{
+    color: black;
+    font-size: 40px;
+
+}
+
+header .links {
+    margin-top: 30px;
+}
+header .links a::after {
+    color: black;
+    content: "|";
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+header .links a:last-child::after{
+    content: "";
+}
+
+header {
+    background-image: url(img/Head\ 1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 667px;
+}
+
+footer .informacoes p .insta img {
+    height: 50px;
+}
+
+footer .informacoes p .whats img {
+    height: 50px;
+}
+footer .informacoes p .face img {
+    height: 50px;
+}
+footer .informacoes p .youtube img {
+    height: 50px;
+}
+
+footer .informacoes p {
+    display: flex;
+    justify-content: center ;
+}
+
+.sobre h2 {
+    font-size: 30px;
+}
+
+.sobre .paulo {
+    width: 542px;
+    height: 542px;
+    left: 17px;
+    top: 39px;
+}
+
+.artista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 58px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    height: 610px;
+}
+
+.galeria {
+    background-color: black;
+    color: white;
+}
+
+.galeria div img {
+    margin: 15px;
+    padding-left: 10px;
+}
+
+.contato {
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font: oblique;
+}
+
+footer .informacoes {
+    background-color: black;
+    color: white;
+}
+
+.texto {
+    text-align: justify;
+    margin-right: 60px;
+    padding-left: 10px;
+}
+
+.forml {
+    width: 100%;
+}
+
+button:hover{
+    letter-spacing: 3px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    }
+
+.botao button {
+    padding: 15px 10px;
+    margin-bottom: 50px;
+}
+
+.img {
+    transform: scale(1) rotate(0)
+}
+.img:hover {
+    transition: scale(1.2) rotate(10deg);
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    flex: 1;
+    transition: 0.5s;
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
+}
+
+.contato {
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+form label {
+    display: block;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+
